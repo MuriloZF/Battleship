@@ -37,3 +37,5 @@ Este jogo foi desenvolvido por Hussein Ali El Gazouini, Hassan Ali El Gazouini e
 Divirta-se jogando Batalha Naval!
 ![Gameplay GIF](https://github.com/HusseinGazouini/Battleship/raw/main/Battleship/1gif.gif)
 
+![Gameplay GIF2](https://github.com/HusseinGazouini/Battleship/raw/main/Battleship/2.gif)
+
