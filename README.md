@@ -35,5 +35,5 @@ Quando o jogador inserir o seu nome, ele vai ter a  opção de olhar o tutorial 
 Este jogo foi desenvolvido por Hussein Ali El Gazouini, Hassan Ali El Gazouini e Murilo Zimerman Fortaleza.
 
 Divirta-se jogando Batalha Naval!
-![1gif](Battleship/gif.gif)
+![Gameplay GIF](https://github.com/HusseinGazouini/Battleship/raw/main/Battleship/1gif.gif)
 
