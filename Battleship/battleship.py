@@ -36,17 +36,29 @@ def center_text(text, width=80):
 def print_map(board, title, width=80):
     print(center_text(title, width))
     for row in board:
-        print(center_text(' ' + '  '.join(row) + ' ', width))
+        print(center_text(' '.join(row), width))
     print("\n")
 
 def play_game():
     term_width = 80  # Default width for simplicity
     
     # Mapa do computador
-    player_attack_board = [["0"] * 10 for _ in range(5)]
+    player_attack_board = [
+        ["0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 \n"],
+        ["0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 \n"],
+        ["0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 \n"],
+        ["0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 \n"]
+        ["0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 \n"], 
+    ]
     
     # Mapa do jogador
-    computer_attack_board = [["0"] * 10 for _ in range(5)]
+    computer_attack_board = [
+        ["0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 \n"], 
+        ["0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 \n"],
+        ["0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 \n"],
+        ["0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 \n"],
+        ["0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 ", "0 \n"]
+    ]
     
     # cria navios para o jogador
     player_ships = get_player_ship_positions()
