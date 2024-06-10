@@ -30,12 +30,16 @@ Este é um simples jogo de Batalha Naval desenvolvido em Python. Abaixo está um
 
 Quando o jogador inserir o seu nome, ele vai ter a  opção de olhar o tutorial para ter um melhor entendiemnto de como jogar ou iniciar o jogo imediatamente. Durante o jogo, o jogador e o computador vão alternar os ataques até que todos os navios de um dos jogadores sejam afundados. Após o término do jogo, o jogador terá a opção de jogar novamente ou sair do jogo.
 
+![Gameplay GIF](https://github.com/HusseinGazouini/Battleship/raw/main/Battleship/1gif.gif)
+
+![Gameplay GIF2](https://github.com/HusseinGazouini/Battleship/raw/main/Battleship/2.gif)
+
 ## Créditos
 
 Este jogo foi desenvolvido por Hussein Ali El Gazouini, Hassan Ali El Gazouini e Murilo Zimerman Fortaleza.
 
 Divirta-se jogando Batalha Naval!
-![Gameplay GIF](https://github.com/HusseinGazouini/Battleship/raw/main/Battleship/1gif.gif)
 
-![Gameplay GIF2](https://github.com/HusseinGazouini/Battleship/raw/main/Battleship/2.gif)
+
+
 
