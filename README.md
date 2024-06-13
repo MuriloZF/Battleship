@@ -26,6 +26,9 @@ Este é um simples jogo de Batalha Naval desenvolvido em Python. Abaixo está um
 - **`def center_text(text, width=80):`**: Esta função centraliza o texto na tela.
 - **`def print_map(board, title, width=80):`**: Esta função imprime o tabuleiro do jogo com um título.
 
+para ir mais afundo... veja o video explicando o codigo completo!
+https://www.youtube.com/watch?v=b4TuIfI_AVk
+
 ## Iniciando o Jogo
 
 Quando o jogador inserir o seu nome, ele vai ter a  opção de olhar o tutorial para ter um melhor entendiemnto de como jogar ou iniciar o jogo imediatamente. Durante o jogo, o jogador e o computador vão alternar os ataques até que todos os navios de um dos jogadores sejam afundados. Após o término do jogo, o jogador terá a opção de jogar novamente ou sair do jogo.
