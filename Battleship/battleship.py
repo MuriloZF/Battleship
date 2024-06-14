@@ -125,7 +125,9 @@ def play_game():
         else:
             print(center_text("O computador errou o tiro!", term_width))
             computer_attack_board[computer_row][computer_column] = '-'
-
+        
+        print(f'O jogador possui: {player_ships_left} navios.')
+        print(f'O computador possui: {computer_ships_left} navios.')
         input(center_text("Pressione Enter para continuar...", term_width))
 
     clear_screen()
