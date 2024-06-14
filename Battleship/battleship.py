@@ -22,7 +22,7 @@ def exibir_tutorial():
 # Foi utilizado string ao invés de int para que, caso o usuário responda com alguma letra, o programa continue rodando.
 tutorial = ""
 while tutorial != "2":
-    tutorial = str(input(f"{nome_jogador}, você deseja ver o tutorial?\nDigite 1 para ver o tutorial.\nDigite 2 para iniciar o jogo."))
+    tutorial = str(input(f"{nome_jogador}, você deseja ver o tutorial?\nDigite 1 para ver o tutorial.\nDigite 2 para iniciar o jogo.\nEscolha: "))
     if tutorial == "1":
         exibir_tutorial()
 
@@ -125,7 +125,8 @@ def play_game():
         else:
             print(center_text("O computador errou o tiro!", term_width))
             computer_attack_board[computer_row][computer_column] = '-'
-
+        print(f'{nome_jogador} possui: {player_ships_left} navios.')
+        print(f'O computador possui: {computer_ships_left} navios.')
         input(center_text("Pressione Enter para continuar...", term_width))
 
     clear_screen()
